@@ -1,0 +1,10 @@
+.imageBox {
+  width: 200px;
+  height: 75px;
+}
+
+.imageBox img{
+  width: 100%;
+  height: auto;
+  float: left;
+}
