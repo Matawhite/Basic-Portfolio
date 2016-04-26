@@ -14,7 +14,6 @@
   margin-left: 70px;
   margin-right: 100px;
   padding-bottom: 50px;
-
 }
 
 p {
@@ -53,20 +52,34 @@ footer{
   background: #666666;
   width: 100%;
   position: fixed;
-  height: 170px;
+  height: 100px;
   line-height: 90px;
   border-top: solid;
-  border-color: #4aaaa5
+  border-color: #4aaaa5;
+  bottom: 0px;
 
 }
+
+#submission {
+  font-family: font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  width: 650px;
+  margin-top: 10px;
+  font-style: bold;
+  padding-bottom: 10px;
+}
+
+
 
 .contactBox {
   margin-top: 20px;
   margin-left: 70px;
   margin-right: 100px;
-  margin-bottom: 50px;
-  height: 75%;
-
+  margin-bottom: 60px;
+  height: 100%;
+  width: 670px;
+  background: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #name {
@@ -78,8 +91,15 @@ footer{
   padding-top: 20px;
 }
 
+.InputName{
+  width: 100%;
+  height: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .email {
-  width: 50%;
+  width: 100%;
   height: 20px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -99,10 +119,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-    color: black;
-}
-
 a:hover {
     color: blue;
 }
@@ -113,6 +129,7 @@ a:hover {
   margin-right: 100px;
   margin-bottom: 50px;
   height: 100%;
+  background: #ffffff;
 }
 
 #title1 {
@@ -214,8 +231,17 @@ body {
     -o-background-size: cover;
     -webkit-background-size: cover;
     padding-top: 20px;
+   
   }
 
   #navBar {
     background: #ffffff;
+  }
+
+  html {
+    background: url(sayagata-400px.png) no-repeat 50% 50% fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
   }
