@@ -14,6 +14,7 @@
   margin-left: 70px;
   margin-right: 100px;
   padding-bottom: 50px;
+
 }
 
 p {
@@ -130,60 +131,66 @@ a:hover {
   margin-bottom: 50px;
   height: 100%;
   background: #ffffff;
+  width: 590px;
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
 
 #title1 {
   position: absolute;
-  top: 225px;
-  left: 78px;
+  top: 275px;
+  left: 113px;
   background: black;
   width: 150px;
-  color: white;
+  color: #777777;
   text-align: center;
   height: 30px;
+  background: #4aaaa5;
+
 
 }
 
 #title2 {
   position: absolute;
-  top: 375px;
-  left: 78px;
-  background: black;
+  top: 433px;
+  left: 113px;
+  background: #4aaaa5;
   width: 150px;
-  color: white;
+  color: #777777;
   text-align: center;
   height: 30px;
 }
 
 #title3 {
   position: absolute;
-  top: 525px;
-  left: 78px;
-  background: black;
+  top: 595px;
+  left: 113px;
+  background: #4aaaa5;
   width: 150px;
-  color: white;
+  color: #777777;
   text-align: center;
   height: 30px;
 }
 
 #title4 {
   position: absolute;
-  top: 225px;
-  left: 232px;
-  background: black;
+  top: 275px;
+  left: 273px;
+  background: #4aaaa5;;
   width: 150px;
-  color: white;
+  color: #777777;
   text-align: center;
   height: 30px;
 }
 
 #title5 {
   position: absolute;
-  top: 375px;
-  left: 232px;
-  background: black;
+  top: 433px;
+  left: 273px;
+  background: #4aaaa5;
   width: 150px;
-  color: white;
+  color: #777777;
   text-align: center;
   height: 30px;
 
@@ -210,7 +217,7 @@ body {
 
 .projects img {
   border: solid;
-  border-color: #4aaaa5
+  border-color: #4aaaa5;
 }
 
 #name {
@@ -244,4 +251,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
+  }
+
+  #button {
+    background: #4aaaa5;
+    width: 100px;
+    height: 50px;
   }

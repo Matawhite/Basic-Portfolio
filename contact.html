@@ -3,51 +3,50 @@
   <head>
     <title>Welcome!</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="assets/reset.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div id="navBar">
-      <nav><div id="name">Matt White</div>
-      <span id="menu">
-      <a href="index.html">About | </a>
-      <a href="portfolio.html">Portfolio | </a>
-      <a href="contact.html"> Contact</a>
-      </span>
+      <nav>
+        <div id="name">Matt White
+        </div>
+          <span id="menu">
+          <a href="index.html">About | </a>
+          <a href="portfolio.html">Portfolio | </a>
+          <a href="contact.html"> Contact</a>
+        </span>
       </nav>
     </div>
     <div class="container">
       <div class="contactBox">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <hr />
-      <form id="submission">
-        <label class="InputName">Name</label>
-        <br />
-        <input class="InputName" type="text" placeholder="John Smith">
-        <br />
-        <label class="email">Email</label>
-        <br />
-        <input class="email" type="email" placeholder="example@gmail.com" >
-        <br />
-        <label class="message">Message</label>
-        <br>
-        <textarea type="text" rows="15" cols="90" ></textarea>
-        <br>
-        <input id="button"type="submit" name="Submit">
-      </form>
-  </div>
-  <div class="contact">
-      <h2>Connect with Me</h2>
-    <a href="https://github.com/matawhite"><i class="fa fa-github fa-4x" aria-hidden="true"></i> </a>
-    <a href="https://www.linkedin.com/in/matthew-white-b4392711a"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i> </a>
-    <a href="http://stackoverflow.com/users/3754851/user3754851"><i class="fa fa-stack-overflow fa-4x" aria-hidden="true"></i></a>
-  </div>
-
-</div>
-<footer id="footer"></footer>
-</body>
-<script src="assets/js/year.js"></script>
-
+          <!-- Set up formspree account to make submissions work -->
+          <form id="submission" action="https://formspree.io/mattwhite614@gmail.com" method="post" >
+              <label class="InputName">Name</label>
+              <br />
+                <input class="InputName" type="text" placeholder="John Smith">
+              <br />
+              <label class="email">Email</label>
+              <br />
+                <input class="email" type="email" placeholder="example@gmail.com" >
+              <br />
+              <label class="message">Message</label>
+              <br>
+                <textarea type="text" rows="15" cols="90" ></textarea>
+              <br>
+                <input id="button" type="submit" name="Submit">
+              </form>
+        </div>
+      <div class="contact">
+        <h2>Connect with Me</h2>
+          <a href="https://github.com/matawhite"><i class="fa fa-github fa-4x" aria-hidden="true"></i> </a>
+          <a href="https://www.linkedin.com/in/matthew-white-b4392711a"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i> </a>
+          <a href="http://stackoverflow.com/users/3754851/user3754851"><i class="fa fa-stack-overflow fa-4x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <!-- do copyright year with js -->
+      <footer id="footer"></footer>
+  </body>
+    <script src="assets/js/year.js"></script>
 </html>
